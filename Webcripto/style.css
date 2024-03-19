@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#crypto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crypto-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.crypto-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.crypto-image img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+select, input, button {
+    margin: 5px;
+}
+
+#currency-converter {
+    margin-top: 20px;
+}

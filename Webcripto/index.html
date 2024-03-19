@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Stark Corporation - Conversor de Criptomoedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Stark Corporation - Conversor de Criptomoedas</h1>
+    </header>
+    <main>
+        <div id="crypto-container"></div>
+        
+        <label for="crypto-select">Escolha uma criptomoeda:</label>
+        <select id="crypto-select"></select>
+        
+        <div id="crypto-details"></div>
+        
+        <div id="currency-converter">
+            <input type="number" id="amount" placeholder="Quantidade">
+            <select id="from-currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="BRL">BRL</option>
+            </select>
+            <select id="to-currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="BRL">BRL</option>
+            </select>
+            <button id="convert">Converter</button>
+            <div id="conversion-result"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Web Stark Corporation</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
